@@ -1,0 +1,52 @@
+body {
+    font-family: Trebuchet MS;
+    font-size: 10pt;
+}
+
+textarea {
+        resize: none;
+        width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul li {
+    font-size: 80%;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+ul li li {
+    font-size: 90%;
+}
+
+ul ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a, a:visited {
+    color: #339933;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #66cc66;
+}
+
+.footer {
+    font-size: 9pt;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 3px;
+
+    padding: 2px 7px 2px 7px;
+    border: 1px solid #aaaaaa;
+    background-color: #dddddd;
+
+    text-align: right;
+}

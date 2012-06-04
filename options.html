@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title>The Admin Was Bored: Options</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="scripts/options.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/bored.css" />
+<link rel="stylesheet" type="text/css" href="css/options.css" />
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="title">The<br />Admin<br />Was<br />Bored</div>
+<div class="description">
+        Highlighting weird response headers and easter eggs and such while you browse (but not tracking you or phoning home)
+</div>
+
+<form id="options">
+<p>Headers to ignore (newline or comma delimited):</p>
+<textarea rows="20" id="ignoredHeaders"></textarea><br />
+
+<input type="submit" value="Save" />
+<input type="button" value="Reset Defaults" id="reset" />
+</form>
+</div>
+
+<div class="footer">
+by <a href="http://onerrorresumenext.net" target="_blank">Jake</a> | 
+<a href="https://github.com/Aquatarkus/the-admin-was-bored" target="_blank">GitHub</a>
+</div>
+
+</body>
+</html>

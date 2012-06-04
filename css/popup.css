@@ -1,0 +1,19 @@
+body {
+    min-width: 400px;
+    min-height: 300px;
+}
+
+#headers {
+    margin-bottom: 30px;
+}
+
+.headerName {
+    color: #666666;
+    font-weight: bold;
+}
+
+.headerName:hover {
+    color: #990000;
+    text-decoration: line-through;
+    cursor: pointer;
+}

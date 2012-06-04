@@ -1,0 +1,16 @@
+{
+    "name": "The Admin was Bored",
+    "version": "0.1",
+    "description": "Highlights weird and unexpected HTTP response headers.",
+    "permissions": [
+        "webRequest", // for inspecting response headers
+        "http://*/*",
+        "https://*/*"
+    ],
+    "browser_action": {
+        "popup": "popup.html",
+        "default_icon": "images/icon.png"
+    },
+    "background_page": "background.html",
+    "options_page": "options.html"
+}
