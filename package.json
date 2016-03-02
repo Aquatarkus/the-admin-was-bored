@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A browser extension for showing interesting HTTP headers",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^3.0.2"
   },
   "repository": {
     "type": "git",
