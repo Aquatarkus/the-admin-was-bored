@@ -1,6 +1,6 @@
 {
     "name": "The Admin was Bored",
-    "version": "0.1",
+    "version": "0.1.1",
     "description": "Highlights weird and unexpected HTTP response headers.",
     "permissions": [
         "webRequest", // for inspecting response headers

@@ -1,6 +1,6 @@
 {
   "name": "the-admin-was-bored",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "A browser extension for showing interesting HTTP headers",
   "devDependencies": {
     "gulp": "^3.9.1",
